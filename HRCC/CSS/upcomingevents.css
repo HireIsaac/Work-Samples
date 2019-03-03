@@ -1,0 +1,12 @@
+
+
+.section1 .calendar {
+	height:400px;
+	border-style:none;
+	border-left:1px solid lightgrey;
+	border-right:1px solid lightgrey;
+}
+
+.section1 iframe {
+	height:100%;
+}

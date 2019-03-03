@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple User Interface assignment</string>
+
+    <string name="action_settings">Settings for app</string>
+
+    <string name="edit_message">Enter your color to show Isaac here:</string>
+    <string name="button_send">Send me (from isaac)</string>
+    <string name="title_activity_display_message">Isaacs Message</string>
+
+    <string name="hello_world">Hello world from Isaac</string>
+
+</resources>

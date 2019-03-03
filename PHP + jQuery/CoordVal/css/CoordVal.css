@@ -1,0 +1,29 @@
+
+
+/* CSS for Coordinate Validator
+ * K Stewart. Used by Isaac Lohnes as ICA
+ * Sept 2018
+ */
+body {
+	background-color: #ffffcc;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	color: #0000cc;
+	width: 500px;
+}
+br {
+	clear: left;
+}
+input {
+	font-size: 120%;
+	height: 2em;
+	margin-bottom: .5em;
+}
+label {
+	font-weight: bold;
+	margin-top: 1em;
+}
+label.left {
+	float: left;
+	width: 7em;
+}

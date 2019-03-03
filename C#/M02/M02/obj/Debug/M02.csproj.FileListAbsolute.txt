@@ -1,0 +1,15 @@
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.csprojAssemblyReference.cache
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\MainWindow.g.cs
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\App.g.cs
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02_MarkupCompile.cache
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02_MarkupCompile.lref
+C:\schoolRepos\w0409360\PROG2500\M02\M02\bin\Debug\M02.exe.config
+C:\schoolRepos\w0409360\PROG2500\M02\M02\bin\Debug\M02.exe
+C:\schoolRepos\w0409360\PROG2500\M02\M02\bin\Debug\M02.pdb
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\MainWindow.baml
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.g.resources
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.Properties.Resources.resources
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.csproj.GenerateResource.cache
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.csproj.CoreCompileInputs.cache
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.exe
+C:\schoolRepos\w0409360\PROG2500\M02\M02\obj\Debug\M02.pdb

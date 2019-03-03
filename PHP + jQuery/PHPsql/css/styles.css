@@ -1,0 +1,33 @@
+/* CSS for Coordinate Validator
+ * K Stewart
+ * Feb 2015
+
+   Modified by Isaac Lohnes
+   Oct 2018
+ */
+body {
+    background-color: #ffffcc;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+td, th {
+    padding:5px;
+}
+
+body > table {
+    /*I know "table" is the standard selector, but I wanted these rules to only apply to
+    parent and not the children"*/
+    background-color: #ffffdd;
+    border:3px ridge black;
+    max-width:1014px;
+    margin:auto;
+}
+

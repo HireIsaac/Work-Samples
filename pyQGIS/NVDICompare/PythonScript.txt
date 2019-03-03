@@ -1,0 +1,27 @@
+from PyQt4 import QtGui
+
+layer = QgsRasterLayer("C:\schoolRepos\w0409360\GIS\NVDICompare\NDVI Rasters\NDVI Rasters\NDVI_Compare.tif", "DEM")
+
+s = QgsRasterShader()
+
+c = QgsColorRampShader()
+
+c.setColorRampType(QgsColorRampShader.INTERPOLATED)
+
+i = []
+
+i.append(QgsColorRampShader.ColorRampItem(-.589682, QtGui.QColor('#d7191c'), '-.59'))
+i.append(QgsColorRampShader.ColorRampItem(-.38, QtGui.QColor('#fdae61'), '-38'))
+i.append(QgsColorRampShader.ColorRampItem(-.17, QtGui.QColor('#ffffbf'), '-.17'))
+i.append(QgsColorRampShader.ColorRampItem(.04, QtGui.QColor('#abdda4'), '0.4'))
+i.append(QgsColorRampShader.ColorRampItem(.253717, QtGui.QColor('#2b83ba'), '.26'))
+
+c.setColorRampItemList(i)
+
+s.setRasterShaderFunction(c)
+
+ps = QgsSingleBandPseudoColorRenderer(layer.dataProvider(), 1, s)
+
+layer.setRenderer(ps)
+
+QgsMapLayerRegistry.instance().addMapLayer(layer)

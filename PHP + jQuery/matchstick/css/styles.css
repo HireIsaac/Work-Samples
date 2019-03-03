@@ -1,0 +1,71 @@
+/*  
+    Purpose: Styling for matchstick game
+    Author: Isaac Lohnes
+    Date: Oct 2018
+*/
+
+
+body {
+    background-color: lightblue;
+    
+}
+body, div, img, button,p {
+    transition: background-color 0.75s;
+}
+
+
+div#photoContainer {
+    text-align:center;
+    width:70%;
+    float:right;
+}
+
+div#control {
+    width: 30%;
+    float:left;
+}
+
+div#control h1{
+    margin-bottom:0px;
+    font-style:italic;
+}
+div#photoContainer img{
+    width:40px;
+    height:auto;
+    border:2px solid black;
+}
+
+div#photoContainer img.unused{
+    background-color:rgba(0,0,0,0.0);
+}
+div#photoContainer img.selected{
+    background-color:red;
+}
+
+div#photoContainer img.used{
+    background-color:grey;
+}
+
+p#player{
+    display:inline-block;
+    padding:10px;
+}
+
+p.player1{
+    background-color:darkblue;
+    color:white;
+}
+
+p.player2 {
+    background-color: darkgreen;
+    color: white;
+}
+
+p#errorOut {
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+
+}
+
+

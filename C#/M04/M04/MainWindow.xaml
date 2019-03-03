@@ -1,0 +1,80 @@
+﻿<Window x:Class="M04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M04"
+        mc:Ignorable="d"
+       Title="MainWindow" Height="525.457" Width="800">
+    <Grid>
+        <StackPanel Margin = "52,26,639.6,315">
+            <RadioButton x:Name = "hair_1"  Tag="hair_1" Margin = "5" Checked = "hairRadioButton_Checked" 
+            GroupName="Hair" Content = "Hair 1" />
+            <RadioButton x:Name = "hair_2" Tag="hair_2" Margin = "5" Checked = "hairRadioButton_Checked" 
+            GroupName = "Hair" Content = "Hair 2" />
+            <RadioButton x:Name = "hair_3" Tag="hair_3" Margin = "5" Checked = "hairRadioButton_Checked" 
+            GroupName = "Hair" Content = "Hair 3" />
+        </StackPanel>
+
+        <StackPanel Margin = "233,26,458.6,315">
+            <RadioButton x:Name = "eyes_1"  Tag="eyes_1" Margin = "5" Checked = "eyesRadioButton_Checked" 
+            GroupName="Eyes" Content = "Eyes 1" />
+            <RadioButton x:Name = "eyes_2" Tag="eyes_2" Margin = "5" Checked = "eyesRadioButton_Checked" 
+            GroupName = "Eyes" Content = "Eyes 2" />
+            <RadioButton x:Name = "eyes_3" Tag="eyes_3" Margin = "5" Checked = "eyesRadioButton_Checked" 
+            GroupName = "Eyes" Content = "Eyes 3" />
+        </StackPanel>
+
+        <StackPanel Margin = "52,120,639.6,221">
+            <RadioButton x:Name = "mouth_1"  Tag="mouth_1" Margin = "5" Checked = "mouthRadioButton_Checked" 
+            GroupName="Mouth" Content = "Mouth 1" />
+            <RadioButton x:Name = "mouth_2" Tag="mouth_2" Margin = "5" Checked = "mouthRadioButton_Checked" 
+            GroupName = "Mouth" Content = "Mouth 2" />
+            <RadioButton x:Name = "mouth_3" Tag="mouth_3" Margin = "5" Checked = "mouthRadioButton_Checked" 
+            GroupName = "Mouth" Content = "Mouth 3" />
+        </StackPanel>
+
+        <StackPanel Margin = "234,120,457.6,221">
+            <RadioButton x:Name = "nose_1"  Tag="nose_1" Margin = "5" Checked = "noseRadioButton_Checked" 
+            GroupName="Nose" Content = "Nose 1" />
+            <RadioButton x:Name = "nose_2" Tag="nose_2" Margin = "5" Checked = "noseRadioButton_Checked" 
+            GroupName = "Nose" Content = "Nose 2" />
+            <RadioButton x:Name = "nose_3" Tag="nose_3" Margin = "5" Checked = "noseRadioButton_Checked" 
+            GroupName = "Nose" Content = "Nose 3" />
+        </StackPanel>
+
+        <Canvas x:Name="testCanvas" HorizontalAlignment="Left" Height="400" Margin="382,29,0,-9" VerticalAlignment="Top" Width="200
+                "/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="29,14,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="29,14,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="29,120,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="204,120,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="204,14,0,0" VerticalAlignment="Top" Width="151"/>
+        <Button Content="Random" HorizontalAlignment="Left" Margin="154,245,0,0" VerticalAlignment="Top" Width="75" Click="randomClick"/>
+
+        <Menu HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="47">
+            <Menu.Resources>
+
+            </Menu.Resources>
+            <MenuItem Header="Menu">
+                <MenuItem Header ="Edit Hair">
+                    <MenuItem Header="Next" Command="{Binding NextHairCommand}" InputGestureText="ctrl + L"></MenuItem>
+                    <MenuItem Header="Previous" Command="{Binding LastHairCommand}" InputGestureText="ctrl + K"></MenuItem>
+                </MenuItem>
+                <MenuItem Header ="Edit Nose">
+                    <MenuItem Header="Next" Command="{Binding NextNoseCommand}" InputGestureText="ctrl + P"></MenuItem>
+                    <MenuItem Header="Previous" Command="{Binding LastNoseCommand}" InputGestureText="ctrl + O"></MenuItem>
+                </MenuItem>
+                <MenuItem Header ="Edit Mouth">
+                    <MenuItem Header="Next" Command="{Binding NextMouthCommand}" InputGestureText="ctrl + I"></MenuItem>
+                    <MenuItem Header="Previous" Command="{Binding LastMouthCommand}" InputGestureText="ctrl + U"></MenuItem>
+                </MenuItem>
+                <MenuItem Header ="Edit Eyes">
+                    <MenuItem Header="Next" Command="{Binding NextEyesCommand}" InputGestureText="ctrl + J"></MenuItem>
+                    <MenuItem Header="Previous" Command="{Binding LastEyesCommand}" InputGestureText="ctrl + H"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

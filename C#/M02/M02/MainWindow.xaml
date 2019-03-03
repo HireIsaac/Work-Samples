@@ -1,0 +1,27 @@
+﻿<Window x:Class="M02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="615.199" Width="931.561">
+    <Grid>
+        <Button Click="hair1Click" Content="Hair 1" HorizontalAlignment="Left" Margin="67,100,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="hair2Click" Content="Hair 2" HorizontalAlignment="Left" Margin="67,140,0,0" VerticalAlignment="Top" Width="75"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="40,77,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button Click="eyes1Click" Content="Eyes 1" HorizontalAlignment="Left" Margin="67,241,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="eyes2Click" Content="Eyes 2" HorizontalAlignment="Left" Margin="67,281,0,0" VerticalAlignment="Top" Width="75"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="40,218,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button Click="nose1Click" Content="Nose 1" HorizontalAlignment="Left" Margin="231,100,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="nose2Click" Content="Nose 2" HorizontalAlignment="Left" Margin="231,140,0,0" VerticalAlignment="Top" Width="75"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="204,77,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button Click="mouth1Click" Content="Mouth 1" HorizontalAlignment="Left" Margin="231,241,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="mouth2Click" Content="Mouth 2" HorizontalAlignment="Left" Margin="231,281,0,0" VerticalAlignment="Top" Width="75"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="204,218,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button Click="randomClick" Content="Random" HorizontalAlignment="Left" Margin="146,382,0,0" VerticalAlignment="Top" Width="75"/>
+        <Canvas x:Name="testCanvas" HorizontalAlignment="Left" Height="400" Margin="433,119,0,0" VerticalAlignment="Top" Width="200
+                "/>
+
+    </Grid>
+</Window>

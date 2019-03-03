@@ -1,0 +1,20 @@
+body {
+    background-color: #ffffcc;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+}
+
+input[type=number] {
+    width:4em;
+}
+
+.label{
+    font-weight: bold;
+}

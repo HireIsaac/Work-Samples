@@ -1,0 +1,66 @@
+			UNRESTRICTED DIGITAL GEOGRAPHIC DATA USE LICENSE
+
+		This is a legal agreement between you (hereinafter referred to as 
+		the “Licensee”) And The
+
+			Province of Nova Scotia
+			as represented by the
+
+			Service Nova Scotia & Municipal Relations
+			hereinafter referred to as  the  “Licensor”
+			
+			For the	Nova Scotia Topographic Databases (NSTDB)
+			OR ANY PART THEREOF, hereinafter called the DATA
+ 
+
+ 
+I WHEREAS the Licensor is the owner or licensee of intellectual property rights in the digital data (the “Data”) contained in the database known as the NSTDB;
+II AND WHEREAS the Licensee wishes to obtain certain rights to the Data, in accordance with the terms and conditions herein contained;
+III AND WHEREAS the Licensor wishes to grant to the Licensee certain rights to the Data, in accordance with the terms and conditions herein contained;
+IV AND WHEREAS the Licensor represents that it has full authority to grant the rights desired by the Licensee on the terms and conditions herein contained;
+V AND WHEREAS the parties hereto are desirous of entering into a license agreement on the basis herein set forth,
+NOW THEREFORE, in consideration of the covenants contained in this Agreement, the parties agree as follows:
+	1.0 DEFINITIONS
+1.1 “Data” means any original and fixed digital data, meta-data, software or 
+     documentation licensed pursuant to the terms and conditions of this Agreement, 
+     described above.
+1.2 “Derived products” means any product, system, sub-system, device, component, material 
+     or software that incorporates or uses any part of the Data.
+1.3 “Improvements” means any modification, enhancement, translation, update or upgrade of all or any part of the Data, in any medium.
+1.4 “Intellectual Property Rights” means any and all intellectual property rights recognized by the law, including any intellectual property right protected through legislation, such as that governing copyright and patents.
+1.5 “Licensor’s Data” means that Data, the Intellectual Property Rights of which vest with the Licensor.
+1.6 “Licensor’s Licensed Rights” means those rights conferred upon the Licensor by third parties over the use of Data which is not the Licensor’s Data.
+	2.0 INTELLECTUAL PROPERTY RIGHTS
+2.1 All title and Intellectual Property Rights in and to the Licensor’s Data shall at all times remain the property of the Licensor. All title and Intellectual Property Rights in and to the Data which is not the Licensor’s Data are the property of the respective content owners and may be protected by copyright, other intellectual property laws, common law or international treaties.
+	3.0 LICENCE GRANT
+3.1 Subject to this Agreement, the Licensor hereby grants to the Licensee a nonexclusive, world-wide, non-transferable, non-assignable, fully paid, royalty-free right and license to exercise all Intellectual Property Rights in the Licensor’s Data and all of the Licensor’s Licensed Rights in the Data, including the right to use, reproduce, extract, modify, improve, translate, further develop, distribute the Data, manufacture or cause to be manufactured Derived products and sub-license any or all of such rights.
+3.2 The Intellectual Property Rights arising from any Improvement or from the manufacture of Derived products, effected by or for the Licensee, shall vest in the Licensee or in such person as the Licensee shall decide.
+	4.0 PROTECTION and ACKNOWLEDGEMENT OF SOURCE
+4.1 The Licensee shall identify the Data and  Licensor  as a data source where any of the Data are redistributed, or contained within Derived Products. The use of the Data within any Derived Products shall not be construed as constituting an endorsement the Licensor of those Derived Products.
+4.2 The Licensee shall reproduce, include and maintain the following notice on all reproductions of the Licensor’s Data produced pursuant to Section 3 above: Reproduced with the permission of  
+Service Nova Scotia & Municipal Relations
+	5.0 REPRESENTATIONS, WARRANTIES, EXCLUSIONS
+5.1 The Licensor makes no representation or warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, completeness or currency of the Data and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the Data. The Licensor does not ensure or warrant compatibility with past, current or future versions of browsers to access the Data.
+5.2 The Licensee shall have no recourse against the Licensor, whether by way of any suit or action or other, for any loss, liability, damage or cost that the Licensee may suffer or incur at any time, by reason of the Licensee's possession or use of the Data.
+5.3 The Licensee shall indemnify the Licensor and its officers, employees, agents and contractors from all claims whatsoever alleging loss, costs, expenses, damages or injuries (including injuries resulting in death) arising out of the Licensee’s possession or use of the Data.
+5.4 The Licensee’s liability to indemnify the Licensor under this Agreement shall not affect or prejudice the Licensor from exercising any other rights under law.
+5.5 The Licensee shall license all persons who obtain Data or Derived Products from the Licensee the right to use the Data or Derived Products by way of a license agreement, and that agreement shall impose upon these persons the same terms and conditions as those contained in this section 5.0.
+	6.0 TERM
+6.1 This Agreement is effective as of the date and time of its acceptance (Eastern Standard Time) by the Licensor, which shall correspond to the time of receipt by the Licensor of the electronic confirmation of the activation of the “I Accept” button, and shall remain in effect for a period of one (1) year, subject to subsection 6.2 and section 7.0 below.
+6.2 At the end of the first term, this Agreement shall automatically be extended for successive one (1) year terms, subject to section 7.0 below, provided the Licensee is not then in breach of any of the terms and conditions of this Agreement.
+	7.0 EARLY TERMINATION
+7.1 Notwithstanding section 6.0 above, this Agreement may be terminated prior to its expiration:
+(i) automatically and without notice, if the Licensee commits or permits a breach of any of its covenants or obligations under this Agreement
+(ii) upon written notice of termination by the Licensee at any time, and such termination shall take effect thirty (30) days after the receipt by the Licensor of such notice; or
+(iii) upon mutual agreement of the parties.
+7.2 Upon the termination of this Agreement, for whatever reason, the Licensee's obligations under section 5 shall survive; and the Licensee's rights under section 3 shall immediately cease.
+7.3 Notwithstanding subsection 7.2 above, the Licensee may continue to use the Data for the purpose of completing orders of Derived Products made before the expiration date or termination date of this Agreement; and in such case, shall continue to be bound by the requirements contained in section 4 above.
+	8. GENERAL
+8.1 Applicable Law
+This Agreement shall be construed and enforced in accordance with, and the rights of the parties shall be governed by the laws of Nova Scotia and Canada as applicable.
+8.2 Entire Agreement
+This Agreement and the Schedules “A” and “B” attached hereto constitute the entire agreement between the parties with respect to its subject matter. This Agreement may only be amended in writing, signed by both parties, which expressly states the intention to amend this Agreement.
+8.3 Dispute Resolution
+If a dispute arises concerning this Agreement, or if a proposed modification of any term of this Agreement cannot be agreed between the parties, the parties shall attempt to resolve the matter first, by negotiation; second, by mediation by a mutually acceptable mediator; and 3) failing these, the dispute shall be finally settled by binding arbitration in accordance with the rules of the Commercial Arbitration Act (Canada), and judgment upon the award rendered by the arbitrators may be entered in any court having jurisdiction over the matter.
+8.4 Notices
+The Licensor assumes no obligation or liability whatsoever for the provision of updates to the Data or the provision of notices in relation thereto to the Licensee. 

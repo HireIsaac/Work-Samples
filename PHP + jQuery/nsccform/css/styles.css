@@ -1,0 +1,136 @@
+/*
+	Purpose: Styles for NSCC form processor
+	Author: Isaac Lohnes
+	Date: Oct 13 / 2018
+
+*/
+
+
+
+/*Class styling creation / general rules for styling (not really in order)*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form{
+	max-width:1025px;
+	margin:auto;
+	margin-bottom:100px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+}
+p{
+    margin:0px;
+}
+
+p.sectionheader{
+    margin-top:25px;
+    /*Yes, I am aware margin-left -15 is evil. But it's the easiest way to get out of bootstraps automatic col padding without
+        making me go insane.
+    */
+    margin-left:-15px;
+}
+
+
+div.boxLayout{
+    border: 1px solid black;
+    width:100%;
+    height:100%;
+    padding:0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+    
+}
+div.greyBackground {
+    background-color: lightgray;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+
+div.boxLayout input{
+    width:100%;
+    height:100%;
+
+
+    padding:0px;
+    margin:0px;
+    border-style:none;
+ 
+    text-align:center;
+}
+
+input {
+    outline-width: 0;
+}
+
+
+
+
+/*Individual styles for sections (in order)*/
+
+div#nsccLogo  img {
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-top: 30px;
+}
+
+div#parkingPassApplication{
+    font-weight:bold;
+}
+
+
+
+div#parkingRegulations h3{
+    padding-top:30px;
+}
+div#parkingRegulations h3:hover{
+    cursor: pointer;
+}
+
+#parkingParagraph {
+    margin-top:25px;
+    margin-bottom:25px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid black;
+    display:none;
+}
+
+div#readRulesContainer{
+    font-style:italic;
+    margin-top:25px;
+}
+div#readRulesContainer input, div#readRulesContainer p {
+    display:inline-block;
+
+}
+
+
+div#readRulesContainer span {
+    font-weight:bold;
+}
+
+div#formSubmit, div#officeSubmit {
+	margin-top:15px;
+}
+
+.notErrorClass {
+	background-color:white;
+}
+.errorClass {
+	background-color:red;
+}
+
+#officeUse, #officeSubmit {
+	display:none;
+}
+

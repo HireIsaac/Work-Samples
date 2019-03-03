@@ -1,0 +1,7 @@
+C:\schoolRepos\w0409360\PROG2500\M01\M01\bin\Debug\M01.exe.config
+C:\schoolRepos\w0409360\PROG2500\M01\M01\bin\Debug\M01.exe
+C:\schoolRepos\w0409360\PROG2500\M01\M01\bin\Debug\M01.pdb
+C:\schoolRepos\w0409360\PROG2500\M01\M01\obj\Debug\M01.csprojAssemblyReference.cache
+C:\schoolRepos\w0409360\PROG2500\M01\M01\obj\Debug\M01.csproj.CoreCompileInputs.cache
+C:\schoolRepos\w0409360\PROG2500\M01\M01\obj\Debug\M01.exe
+C:\schoolRepos\w0409360\PROG2500\M01\M01\obj\Debug\M01.pdb

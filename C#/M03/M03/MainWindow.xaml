@@ -1,0 +1,53 @@
+﻿<Window x:Class="M03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="525.457" Width="800">
+    <Grid>
+        <StackPanel Margin = "52,26,639.6,315">
+            <RadioButton x:Name = "hair_1"  Tag="hair_1" Margin = "5" Checked = "hairRadioButton_Checked" 
+            GroupName="Hair" Content = "Hair 1" />
+            <RadioButton x:Name = "hair_2" Tag="hair_2" Margin = "5" Checked = "hairRadioButton_Checked" 
+            GroupName = "Hair" Content = "Hair 2" />
+            <RadioButton x:Name = "hair_3" Tag="hair_3" Margin = "5" Checked = "hairRadioButton_Checked" 
+            GroupName = "Hair" Content = "Hair 3" />
+        </StackPanel>
+
+        <StackPanel Margin="52,147,633.6,218">
+            <CheckBox Content="Eyes 1" x:Name="eyes_1"
+              Click="eyes1Click"/>
+            <CheckBox Content="Eyes 2" x:Name="eyes_2" 
+              Click="eyes2Click"/>
+            <CheckBox Content="Eyes 3" x:Name="eyes_3"
+              Click="eyes3Click"/>
+
+        </StackPanel>
+
+        <StackPanel Margin = "229,130,462.6,211">
+            <RadioButton x:Name = "mouth_1"  Tag="mouth_1" Margin = "5" Checked = "mouthRadioButton_Checked" 
+            GroupName="Mouth" Content = "Mouth 1" />
+            <RadioButton x:Name = "mouth_2" Tag="mouth_2" Margin = "5" Checked = "mouthRadioButton_Checked" 
+            GroupName = "Mouth" Content = "Mouth 2" />
+            <RadioButton x:Name = "mouth_3" Tag="mouth_3" Margin = "5" Checked = "mouthRadioButton_Checked" 
+            GroupName = "Mouth" Content = "Mouth 3" />
+        </StackPanel>
+
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="241,29,0,0" TextWrapping="Wrap" Text="Nose Slider:" VerticalAlignment="Top" Width="75"/>
+        <StackPanel Margin="251,65,487.6,315">
+            <Slider Maximum="2" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="noseSlider_ValueChanged" />
+        </StackPanel>
+
+       <Canvas x:Name="testCanvas" HorizontalAlignment="Left" Height="400" Margin="382,29,0,-9" VerticalAlignment="Top" Width="200
+                "/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="29,14,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="29,14,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="29,120,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="204,120,0,0" VerticalAlignment="Top" Width="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="204,14,0,0" VerticalAlignment="Top" Width="151"/>
+        <Button Content="Random" HorizontalAlignment="Left" Margin="154,245,0,0" VerticalAlignment="Top" Width="75" Click="randomClick"/>
+
+    </Grid>
+</Window>

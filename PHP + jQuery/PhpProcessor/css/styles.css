@@ -1,0 +1,22 @@
+/* CSS for Coordinate Validator
+ * K Stewart
+ * Modified by I Lohnes
+ * Feb 2015
+ */
+body {
+    background-color: #ffffcc;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: #0000cc;
+    width: 500px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+}
+           
+input[type=number] {
+    width:4em;
+}

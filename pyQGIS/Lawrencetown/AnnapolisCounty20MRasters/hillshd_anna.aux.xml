@@ -1,0 +1,25 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>hillshd_anna</Description>
+    <NoDataValue>2.55000000000000E+02</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>80.5030303030303</HistMin>
+        <HistMax>245.4969696969697</HistMax>
+        <BucketCount>165</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>1|0|0|1|0|0|0|1|0|2|1|1|2|0|2|0|2|0|2|1|0|1|0|0|2|3|1|0|7|1|2|1|2|2|5|4|2|8|1|5|1|3|2|3|1|3|8|0|3|2|7|3|6|5|5|3|8|10|2|6|2|7|5|5|7|11|10|5|7|6|12|6|17|13|9|22|6|17|9|24|39|11|59|12|51|47|86|127|27|137|63|151|304|24|263|145|263|397|92|860|383|54|390|228|157|329|137|190|252|100|147|295|108|98|161|136|32|86|59|31|33|39|28|13|14|10|14|11|2|4|1|6|6|3|1|3|1|1|1|1|0|1|0|0|0|1|1|1|2|0|0|0|3|1|0|0|1|1|0|2|0|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="RepresentationType">THEMATIC</MDI>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">245</MDI>
+      <MDI key="STATISTICS_MEAN">180.38439716312</MDI>
+      <MDI key="STATISTICS_MINIMUM">81</MDI>
+      <MDI key="STATISTICS_STDDEV">11.136591978759</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">32.69</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
